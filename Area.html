@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric Conversion</title>
+	<link rel="shortcut icon" href="logo/Logo-Main.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style 1.css">
+	<link rel="stylesheet" href="css/style-home.css">
+	<link rel="stylesheet" href="css/converter.css">
+	<link rel="stylesheet" href="css/Article about converters.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #00bbf0;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #1a0e69;
+			border-radius: 50px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background-color: #031942;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<a href="index.html">
+							<img style="width: 100px;" src="LOGO/Main-3logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay">
+					</div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a id="nav-links" href="index.html"><i class="bi bi-arrow-left"></i></a>
+							</li>
+							<li>
+								<a id="nav-links" href="home.html">Home</a>
+							</li>
+							<li>
+								<a id="nav-links" href="about.html">About</a>
+							</li>
+
+							<li class="menu-item-has-children">
+								<a id="nav-links" href="#">Pages <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="length.html">Length</a></li>
+										<li><a href="Area.html">Area</a></li>
+										<li><a href="volume.html">Volume</a></li>
+										<li><a href="mass.html">Mass</a></li>
+										<li><a href="temp.html">Temperature</a></li>
+										<li><a href="currency.html">Currency</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a id="nav-links" href="contact.html">Contact</a>
+							</li>
+							<li>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<!-- header end -->
+
+<!-- MAIN HEADING FOR PAGE START  -->
+
+<div class="h1-mainpage-heading" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center; font-size: 60px; padding-top: 20px; font-weight: bold; background: url(Images/TDK0.gif); background-size: cover;
+background-position: center;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;">AREA CONVERTER
+</div>
+
+<!-- MAIN HEADING FOR PAGE END  -->
+
+	<!-- SECTION BEGINS -->
+
+	<section class="converter" style="margin-bottom: 5vh;">
+		<div class="container_converter">
+			<div class="main-heading">
+				<h1>AREA CONVERTER</h1>
+			</div>
+			<div class="div-h1">
+				<span>Area Converter</span>
+			</div>
+
+			<div class="input-boxes-1">
+				<div class="input-top-2">
+					<select name="" id="inputType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="square-inches">Square Inches</option>
+						<option value="square-millimeters">Square millimeters</option>
+						<option value="square-feet">Square Feet</option>
+						<option value="square-meters">Square Meters</option>
+						<option value="square-yards">Square Yards</option>
+						<option value="acres">Acres</option>
+						<option value="hectares">Hectares</option>
+						<option value="square-miles">Square Miles</option>
+						<option value="square-kilometers">Square Kilometers</option>
+					</select>
+				</div>
+				<div class="input-top-1">
+					<input type="number" placeholder="Input" class="input-1" id="input">
+				</div>
+			</div>
+			<div class="input-boxes-2">
+				<div class="input-bottom-2">
+					<select name="" id="resultType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="square-inches">Square Inches</option>
+						<option value="square-millimeters">Square millimeters</option>
+						<option value="square-feet">Square Feet</option>
+						<option value="square-meters">Square Meters</option>
+						<option value="square-yards">Square Yards</option>
+						<option value="acres">Acres</option>
+						<option value="hectares">Hectares</option>
+						<option value="square-miles">Square Miles</option>
+						<option value="square-kilometers">Square Kilometers</option>
+					</select>
+				</div>
+				<div class="input-bottom-1">
+					<input type="number" placeholder="Result" class="input-3" id="result" readonly>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECTION END -->
+
+	<!-- ABOUT LENGTH START -->
+
+	<div class="about-converter">
+		<div class="about-container">
+			<div class="about-article">
+				<h2>About Area Conversion</h2>
+				<p>"Area conversion refers to the process of converting the measurement of a two-dimensional space from
+					one unit to another. It involves transforming the numerical representation of the extent or size of
+					a surface from its original unit of measurement to a different unit while maintaining the
+					equivalence of the area. This conversion is essential for various fields such as construction,
+					architecture, engineering, and land surveying, where precise measurement of land, rooms, plots, or
+					any other two-dimensional surfaces is crucial. The conversion process typically involves
+					mathematical calculations based on established conversion factors or formulas specific to each unit
+					pair, ensuring accuracy and consistency in the representation of area across different measurement
+					systems. A comprehensive area conversion tool on a conversion website facilitates effortless and
+					precise conversion between commonly used area units such as square meters, square feet, acres,
+					hectares, square miles, and others, thereby catering to diverse user needs and promoting efficiency
+					in professional and everyday tasks requiring area measurement."</p>
+			</div>
+
+			<div class="chart-head">
+				<h1 style="color: #1a0e69;">CHART</h1>
+			</div>
+			<div class="chart-grid">
+				<div class="length-grid" id="box-1">1 square inch</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-2">545.16 square millimeters</div>
+				<div class="length-grid" id="box-3">0.0015500031 square inches</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-4">1 square millimeters</div>
+				<div class="length-grid" id="box-5">1 square feet</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-6">0.0929034116 square meters</div>
+				<div class="length-grid" id="box-7">10.763910417 square feet</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-8">1 square meter</div>
+				<div class="length-grid" id="box-9">1 square yards</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-10">0.83612736 square meters</div>
+				<div class="length-grid" id="box-11">1.1959900463 square yards</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-12">1 square meters</div>
+				<div class="length-grid" id="box-13">1 acres</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-14">0.4046856422 hectares</div>
+				<div class="length-grid" id="box-15">2.4710538147 Acres</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-16">1 hactares</div>
+				<div class="length-grid" id="box-13">1 square miles</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-14">2.5899881103 square kilometers</div>
+				<div class="length-grid" id="box-15">3.861021585e-13 square mile</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-16">1 square kilometer</div>
+			</div>
+
+			<div class="chart-formula-head">
+				<h1 style="color: #1a0e69;">FORMULAS</h1>
+			</div>
+			<div class="chart-formula-grid">
+				<div class="length-formula-grid" id="box-1">Square Inches to Square Millimeters <br> <br> Formula = for
+					an approximate result, multiply the area value by 645.2 </div>
+				<div class="length-formula-grid" id="box-2">Square Feet to Square Meters <br><br> Formula = divide the
+					area value by 10.764</div>
+				<div class="length-formula-grid" id="box-3">Square Yards to Square Meters <br><br> Formula = divide the
+					area value by 1.196</div>
+				<div class="length-formula-grid" id="box-3">Acres to Hectares <br><br> Formula = divide the area value
+					by 2.471</div>
+				<div class="length-formula-grid" id="box-4">Square Miles to Square Kilometers <br><br> Formula =
+					multiply the area value by 2.59</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT LENGTH END  -->
+
+	<!-- FOOTER STAR  -->
+
+	<section class="section">
+		<div class="main-list">
+			<div class="list-2">
+				<h4>Legal Information</h4>
+				<a>
+					<li>Privacy Policy</li>
+				</a>
+				<a>
+					<li>Terms Of Service</li>
+				</a>
+				<a>
+					<li>Cookie Policy</li>
+				</a>
+
+				<div class="address-icons">
+					<h4>Social Media</h4>
+					<div class="add-icons">
+						<a target="_blank" href="https://www.facebook.com/">
+							<li><i class="bi bi-facebook"></i></li>
+						</a>
+						<a target="_blank" href="https://www.instagram.com/?hl=en">
+							<li><i class="bi bi-instagram"></i></li>
+						</a>
+						<a target="_blank" href="https://m.twitter.com/login">
+							<li><i class="bi bi-twitter-x"></i></li>
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/">
+							<li><i class="bi bi-linkedin"></i></li>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="list-3">
+				<h4>Quick Links</h4>
+				<a href="length.html">
+					<li>Length</li>
+				</a>
+				<a href="Area.html">
+					<li>Area</li>
+				</a>
+				<a href="volume.html">
+					<li>Volume</li>
+				</a>
+				<a href="mass.html">
+					<li>Mass</li>
+				</a>
+				<a href="temp.html">
+					<li>Temperature</li>
+				</a>
+				<a href="currency.html">
+					<li>Currency</li>
+				</a>
+			</div>
+
+			<div class="list-4">
+				<h4>Links</h4>
+				<a href="home.html">
+					<li>Home</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+			</div>
+
+			<div class="list-1">
+				<h4>Address</h4>
+
+				<a>
+					<li><i class="bi bi-geo-alt-fill"></i>Location</li>
+				</a>
+				<a>
+					<li><i class="bi bi-telephone"></i>Call +923198187923</li>
+				</a>
+				<a>
+					<li><i class="bi bi-envelope-fill"></i>user123@gmail.com</li>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/script.js"></script>
+	<script src="js/area-convert.js"></script>
+</body>
+
+</html>

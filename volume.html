@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric Conversion</title>
+	<link rel="shortcut icon" href="logo/Logo-Main.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style 1.css">
+	<link rel="stylesheet" href="css/converter.css">
+	<link rel="stylesheet" href="css/Article about converters.css">
+	<link rel="stylesheet" href="css/style-home.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #00bbf0;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #1a0e69;
+			border-radius: 50px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background-color: #031942;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- header start -->
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<a href="index.html">
+							<img style="width: 100px;" src="LOGO/Main-3logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay">
+					</div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a id="nav-links" href="index.html"><i class="bi bi-arrow-left"></i></a>
+							</li>
+							<li>
+								<a id="nav-links" href="home.html">Home</a>
+							</li>
+							<li>
+								<a id="nav-links" href="about.html">About</a>
+							</li>
+
+							<li class="menu-item-has-children">
+								<a id="nav-links" href="#">Pages <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="length.html">Length</a></li>
+										<li><a href="Area.html">Area</a></li>
+										<li><a href="volume.html">Volume</a></li>
+										<li><a href="mass.html">Mass</a></li>
+										<li><a href="temp.html">Temperature</a></li>
+										<li><a href="currency.html">Currency</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a id="nav-links" href="contact.html">Contact</a>
+							</li>
+							<li>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- header end -->
+
+	<!-- MAIN HEADING FOR PAGE START  -->
+
+<div class="h1-mainpage-heading" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center; font-size: 60px; padding-top: 20px; font-weight: bold; background: url(Images/TDK0.gif); background-size: cover;
+background-position: center;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;">VOLUME CONVERTER
+</div>
+
+<!-- MAIN HEADING FOR PAGE END  -->
+
+	<!-- SECTION START  -->
+
+	<section class="converter" style="margin-bottom: 5vh;">
+		<div class="container_converter">
+			<div class="main-heading">
+				<h1>VOLUME CONVERTER</h1>
+			</div>
+			<div class="div-h1">
+				<span>Volume Converter </span>
+			</div>
+
+			<div class="input-boxes-1">
+				<div class="input-top-2">
+					<select name="" id="inputType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="fluid-ounces">Fluid Ounces</option>
+						<option value="milliliters">Milliliters</option>
+						<option value="gallons">Gallons</option>
+						<option value="liters">Liters</option>
+						<option value="cubic-feet">Cubic Feet</option>
+						<option value="cubic-meters">Cubic Meters</option>
+						<option value="cubic-yards">Cubic Yards</option>
+					</select>
+				</div>
+				<div class="input-top-1">
+					<input type="number" placeholder="Enter Value" class="input-1" id="input">
+				</div>
+			</div>
+			<div class="input-boxes-2">
+				<div class="input-bottom-2">
+					<select name="" id="resultType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="fluid-ounces">Fluid Ounces</option>
+						<option value="milliliters">Milliliters</option>
+						<option value="gallons">Gallons</option>
+						<option value="liters">Liters</option>
+						<option value="cubic-feet">Cubic Feet</option>
+						<option value="cubic-meters">Cubic Meters</option>
+						<option value="cubic-yards">Cubic Yards</option>
+					</select>
+				</div>
+				<div class="input-bottom-1">
+					<input type="number" placeholder="Enter Value" class="inout-3" id="result" readonly>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECTION END  -->
+
+	<!-- ABOUT LENGTH START -->
+
+	<div class="about-converter">
+		<div class="about-container">
+			<div class="about-article">
+				<h2>About Volume Conversion</h2>
+				<p>Volume conversion refers to the process of converting the measurement of volume from one unit to
+					another. Volume is a three-dimensional quantity that measures the amount of space occupied by a
+					substance or object. It's typically measured in units such as liters (L), cubic meters (m³), gallons
+					(gal), or cubic feet (ft³), among others. The detail definition of volume conversion involves
+					understanding the relationships between different volume units and utilizing conversion factors to
+					switch between them. To convert from one volume unit to another, you typically multiply by a
+					conversion factor derived from these relationships. For instance, to convert 2 liters to
+					milliliters, you would multiply 2 by 1000 since 1 liter equals 1000 milliliters, resulting in 2000
+					milliliters. Understanding volume conversion is crucial in various fields such as science,
+					engineering, cooking, and everyday measurements, as it allows for the accurate representation and
+					comparison of quantities expressed in different units of volume.
+				</p>
+			</div>
+
+			<div class="chart-head">
+				<h1 style="color: #1a0e69;">CHART</h1>
+			</div>
+			<div class="chart-grid">
+				<div class="length-grid" id="box-1">1 fluid ounce</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-2">29.5735 millimeters</div>
+				<div class="length-grid" id="box-3">0.033814 fluid ounce</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-4">1 millimeter</div>
+				<div class="length-grid" id="box-5">1 gallon</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-6">3.78541 liter</div>
+				<div class="length-grid" id="box-7">0.264172 gallon</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-8">1 liter</div>
+				<div class="length-grid" id="box-9">1 cubic feet</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-10">0.0283168 cubic meters</div>
+				<div class="length-grid" id="box-11">35.3147 cubic feet</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-12">1 cubic meter</div>
+				<div class="length-grid" id="box-13">1 cubic yard</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-14">0.764555 cubic meter</div>
+				<div class="length-grid" id="box-15">1.30795 cubic yard</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-16">1 cubic meter</div>
+			</div>
+
+			<div class="chart-formula-head">
+				<h1 style="color: #1a0e69;">FORMULAS</h1>
+			</div>
+			<div class="chart-formula-grid">
+				<div class="length-formula-grid" id="box-1">Fluid Ounce to Millimeters <br> <br> Formula = for an
+					approximate result, multiply the volume value by 29.574</div>
+				<div class="length-formula-grid" id="box-2">Gallons to Liters <br><br> Formula = for an approximate
+					result, multiply the volume value by 3.785</div>
+				<div class="length-formula-grid" id="box-3">Cubic feet to Cubic meters <br><br> Formula = for an
+					approximate result, divide the volume value by 35.315</div>
+				<div class="length-formula-grid" id="box-4">Cubic yards to Cubic meter <br><br> Formula = divide the
+					volume value by 1.308</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT LENGTH END  -->
+
+	<!-- FOOTER START  -->
+
+	<section class="section">
+		<div class="main-list">
+			<div class="list-2">
+				<h4>Legal Information</h4>
+				<a>
+					<li>Privacy Policy</li>
+				</a>
+				<a>
+					<li>Terms Of Service</li>
+				</a>
+				<a>
+					<li>Cookie Policy</li>
+				</a>
+
+				<div class="address-icons">
+					<h4>Social Media</h4>
+					<div class="add-icons">
+						<a href="https://www.facebook.com/">
+							<li><i class="bi bi-facebook"></i></li>
+						</a>
+						<a href="https://www.instagram.com/?hl=en">
+							<li><i class="bi bi-instagram"></i></li>
+						</a>
+						<a href="https://m.twitter.com/login">
+							<li><i class="bi bi-twitter-x"></i></li>
+						</a>
+						<a href="https://www.linkedin.com/">
+							<li><i class="bi bi-linkedin"></i></li>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="list-3">
+				<h4>Quick Links</h4>
+				<a href="length.html">
+					<li>Length</li>
+				</a>
+				<a href="Area.html">
+					<li>Area</li>
+				</a>
+				<a href="volume.html">
+					<li>Volume</li>
+				</a>
+				<a href="mass.html">
+					<li>Mass</li>
+				</a>
+				<a href="temp.html">
+					<li>Temperature</li>
+				</a>
+				<a href="currency.html">
+					<li>Currency</li>
+				</a>
+			</div>
+
+			<div class="list-4">
+				<h4>Links</h4>
+				<a href="home.html">
+					<li>Home</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+			</div>
+
+			<div class="list-1">
+				<h4>Address</h4>
+				<a>
+					<li><i class="bi bi-geo-alt-fill"></i>Location</li>
+				</a>
+				<a>
+					<li><i class="bi bi-telephone"></i>Call +923198187923</li>
+				</a>
+				<a>
+					<li><i class="bi bi-envelope-fill"></i>user123@gmail.com</li>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/volume-convert.js"></script>
+</body>
+
+</html>

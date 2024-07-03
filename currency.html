@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric Conversion</title>
+	<link rel="shortcut icon" href="logo/Logo-Main.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style 1.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/currency.css">
+	<link rel="stylesheet" href="css/style-home.css">
+	<link rel="stylesheet" href="css/Article about converters.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #00bbf0;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #1a0e69;
+			border-radius: 50px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background-color: #031942;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- header start -->
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<a href="index.html">
+							<img style="width: 100px;" src="LOGO/Main-3logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay">
+					</div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a id="nav-links" href="index.html"><i class="bi bi-arrow-left"></i></a>
+							</li>
+							<li>
+								<a id="nav-links" href="home.html">Home</a>
+							</li>
+							<li>
+								<a id="nav-links" href="about.html">About</a>
+							</li>
+
+							<li class="menu-item-has-children">
+								<a id="nav-links" href="#">Pages <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="length.html">Lenght</a></li>
+										<li><a href="Area.html">Area</a></li>
+										<li><a href="volume.html">Volume</a></li>
+										<li><a href="mass.html">Mass</a></li>
+										<li><a href="temp.html">Temperature</a></li>
+										<li><a href="currency.html">Currency</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a id="nav-links" href="contact.html">Contact</a>
+							</li>
+							<li>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- header end -->
+
+<!-- MAIN HEADING FOR PAGE START  -->
+
+<div class="h1-mainpage-heading" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center; font-size: 60px; padding-top: 20px; font-weight: bold; background: url(Images/TDK0.gif); background-size: cover;
+background-position: center;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;">CURRENCY CONVERTER
+</div>
+
+<!-- MAIN HEADING FOR PAGE END  -->
+
+	<!-- CURRENCY CONVERTER START  -->
+	<div class="currency-container">
+		<h1 class="currency-h1">CURRENCY CONVERTER</h1>
+		<div class="row-currency">
+			<div class="col-currency">
+				<select name="currency" class="currency select-currency">
+					<option>select</option>
+				</select>
+				<input class="currency-input" type="text" name="" id="input_currency" placeholder="Input">
+			</div>
+			<div class="col-currency">
+				<select name="currency" class="currency select-currency">
+					<option>select</option>
+				</select>
+				<input class="currency-input" type="text" name="" id="output_currency" readonly>
+			</div>
+		</div>
+		<button onClick="convert()" class="convert-currency">Convert</button>
+	</div>
+
+	<!-- CuRRENCY CONVERTER END  -->
+
+	<!-- ABOUT LENGTH START -->
+
+	<div class="about-currency-converter">
+		<div class="about-currency-container">
+			<div class="about-currency-article">
+				<h2>Currency Length Conversion</h2>
+				<p>Currency conversion is the process of converting one currency into another, typically for financial
+					transactions, travel, or investment purposes. It's essential for international trade and travel, as
+					different countries often have their own currencies.</p>
+			</div>
+
+
+			<div class="chart-currency-head">
+				<h1 style="color: #1a0e69;">MORE ABOUT</h1>
+			</div>
+			<div class="chart-currency-grid">
+				<div data-tilt style="transform: preserve-3d; perspective:(1000px) ;" class="about-currency-grid"
+					id="box-1main">Here's a breakdown of how currency conversion typically
+					works:</div>
+				<div class="about-currency-grid" id="box-2">1. *Exchange Rates*: The exchange rate is the value of one
+					currency in terms of another. It determines how much of one currency you can exchange for another.
+					Exchange rates can fluctuate due to various factors such as economic indicators, geopolitical
+					events, and market speculation.</div>
+				<div class="about-currency-grid" id="box-3">2. *Currency Pairs*: In currency conversion, currencies are
+					traded in pairs. The first currency in the pair is called the base currency, and the second currency
+					is the quote currency. For example, in the pair USD/EUR, the US dollar (USD) is the base currency,
+					and the euro (EUR) is the quote currency.</div>
+				<div class="about-currency-grid" id="box-4">3. *Buying and Selling*: When converting currency, you can
+					either buy or sell a currency pair. If you believe that the base currency will strengthen against
+					the quote currency, you would buy the pair. Conversely, if you think the base currency will weaken,
+					you would sell the pair.</div>
+				<div class="about-currency-grid" id="box-5">4. *Conversion Methods*: Currency conversion can be done
+					through various methods:
+					- Banks and Financial Institutions: Banks offer currency exchange services, usually charging a fee
+					or markup on the exchange rate.
+					- Foreign Exchange (Forex) Markets: Forex markets facilitate currency trading between banks,
+					financial institutions, corporations, and individual traders.
+					- Online Currency Converters: There are many online tools and websites where you can quickly check
+					current exchange rates and convert currencies.
+					- ATMs and Currency Exchange Kiosks: When traveling abroad, you can often use ATMs or currency
+					exchange kiosks to convert your home currency into the local currency.
+				</div>
+				<div class="about-currency-grid" id="box-6">5. *Conversion Costs*: When converting currency, you may
+					incur costs such as exchange rate spreads, transaction fees, and commissions. These costs can vary
+					depending on the method you use and the service provider.</div>
+				<div class="about-currency-grid" id="box-7">6. *Conversion Costs*: When converting currency, you may
+					incur costs such as exchange rate spreads, transaction fees, and commissions. These costs can vary
+					depending on the method you use and the service provider.</div>
+				<div class="about-currency-grid" id="box-8">It's important to be aware of the exchange rates and any
+					associated costs when converting currency to ensure you get the best value for your money.
+					Additionally, staying informed about economic developments and geopolitical events can help you make
+					more informed decisions when exchanging currencies.</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ABOUT LENGTH END  -->
+
+	<!-- FOOTER START  -->
+
+	<section class="section">
+		<div class="main-list">
+			<div class="list-2">
+				<h4>Legal Information</h4>
+				<a>
+					<li>Privacy Policy</li>
+				</a>
+				<a>
+					<li>Terms Of Service</li>
+				</a>
+				<a>
+					<li>Cookie Policy</li>
+				</a>
+
+				<div class="address-icons">
+					<h4>Social Media</h4>
+					<div class="add-icons">
+						<a href="https://www.facebook.com/">
+							<li><i class="bi bi-facebook"></i></li>
+						</a>
+						<a href="https://www.instagram.com/?hl=en">
+							<li><i class="bi bi-instagram"></i></li>
+						</a>
+						<a href="https://m.twitter.com/login">
+							<li><i class="bi bi-twitter-x"></i></li>
+						</a>
+						<a href="https://www.linkedin.com/">
+							<li><i class="bi bi-linkedin"></i></li>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="list-3">
+				<h4>Quick Links</h4>
+
+				<a href="length.html">
+					<li>Length</li>
+				</a>
+				<a href="Area.html">
+					<li>Area</li>
+				</a>
+				<a href="volume.html">
+					<li>Volume</li>
+				</a>
+				<a href="mass.html">
+					<li>Mass</li>
+				</a>
+				<a href="temp.html">
+					<li>Temperature</li>
+				</a>
+				<a href="currency.html">
+					<li>Currency</li>
+				</a>
+			</div>
+
+			<div class="list-4">
+				<h4>Links</h4>
+				<a href="home.html">
+					<li>Home</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+			</div>
+
+			<div class="list-1">
+				<h4>Address</h4>
+				<a>
+					<li><i class="bi bi-geo-alt-fill"></i>Location</li>
+				</a>
+				<a>
+					<li><i class="bi bi-telephone"></i>Call +923198187923</li>
+				</a>
+				<a>
+					<li><i class="bi bi-envelope-fill"></i>user123@gmail.com</li>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/currency.js"></script>
+	<script src="js/currencyCode.js"></script>
+	<script src="js/vanilla.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

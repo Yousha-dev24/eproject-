@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric Conversion</title>
+	<link rel="shortcut icon" href="logo/Logo-Main.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/converter.css">
+	<link rel="stylesheet" href="css/Article about converters.css">
+	<link rel="stylesheet" type="text/css" href="css/style 1.css">
+	<link rel="stylesheet" href="css/style-home.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #00bbf0;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #1a0e69;
+			border-radius: 50px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background-color: #031942;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- header start -->
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<a href="index.html">
+							<img style="width: 100px;" src="LOGO/Main-3logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay">
+					</div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a id="nav-links" href="index.html"><i class="bi bi-arrow-left"></i></a>
+							</li>
+							<li>
+								<a id="nav-links" href="home.html">Home</a>
+							</li>
+							<li>
+								<a id="nav-links" href="about.html">About</a>
+							</li>
+							<li class="menu-item-has-children">
+								<a id="nav-links" href="#">Pages <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="length.html">Length</a></li>
+										<li><a href="Area.html">Area</a></li>
+										<li><a href="volume.html">Volume</a></li>
+										<li><a href="mass.html">Mass</a></li>
+										<li><a href="temp.html">Temperature</a></li>
+										<li><a href="currency.html">Currency</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a id="nav-links" href="contact.html">Contact</a>
+							</li>
+							<li>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- header end -->
+
+	<!-- MAIN HEADING FOR PAGE START  -->
+
+<div class="h1-mainpage-heading" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center; font-size: 60px; padding-top: 20px; font-weight: bold; background: url(Images/TDK0.gif); background-size: cover;
+background-position: center;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;">TEMP CONVERTER
+</div>
+
+<!-- MAIN HEADING FOR PAGE END  -->
+
+	<!-- SECTION START  -->
+
+	<section class="converter" style="margin-bottom: 5vh;">
+		<div class="container_converter">
+			<div class="main-heading">
+				<h1>TEMP CONVERTER</h1>
+			</div>
+			<div class="div-h1">
+				<span>Temp Converter </span>
+			</div>
+
+			<div class="input-boxes-1">
+				<div class="input-top-2">
+					<select name="" id="inputType" class="select">
+						<option value="" disabled selected>From Unit</option>
+						<option value="celsius">Celsius</option>
+						<option value="fahrenheit">Fahrenheit</option>
+					</select>
+				</div>
+				<div class="input-top-1">
+					<input type="number" placeholder="Input" class="input-1" id="input">
+				</div>
+			</div>
+			<div class="input-boxes-2">
+				<div class="input-bottom-2">
+					<select name="" id="resultType" class="select">
+						<option value="" disabled selected>To Unit</option>
+						<option value="fahrenheit">Fahrenheit</option>
+						<option value="celsius">Celsius</option>
+					</select>
+				</div>
+				<div class="input-bottom-1">
+					<input type="number" placeholder="Result" class="inout-3" id="result" readonly>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECTION END  -->
+
+	<!-- ABOUT LENGTH START -->
+
+
+	<div class="about-converter">
+		<div class="about-container">
+			<div class="about-article">
+				<h2>About Temperature Conversion</h2>
+				<p>Temperature conversion is the process of transforming a temperature value from one scale to another.
+					The main temperature scales are Celsius (°C), Fahrenheit (°F), and Kelvin (K). Converting between
+					these scales involves applying mathematical formulas to express temperatures in different units. For
+					example, converting Celsius to Fahrenheit involves multiplying by 9/5 and adding 32, while
+					converting Celsius to Kelvin involves adding 273.15. Similarly, converting Fahrenheit to Celsius
+					requires subtracting 32 and multiplying by 5/9. These conversions are essential for various
+					applications, including weather forecasting, cooking, and scientific research.</p>
+			</div>
+
+			<div class="chart-head">
+				<h1 style="color: #1a0e69;">CHART</h1>
+			</div>
+			<div class="chart-grid">
+				<div class="length-grid" id="box-1">1 Celcius</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-2">33.8 fahrenheit</div>
+				<div class="length-grid" id="box-3">1 fahrenheit</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-4">-17.2222</div>
+			</div>
+
+			<div class="chart-formula-head">
+				<h1 style="color: #1a0e69;">FORMULAS</h1>
+			</div>
+			<div class="chart-formula-grid">
+				<div class="length-formula-grid" id="box-1">Fahrenheit to Celcius <br> <br> Formula = (1°F - 32) * 5/9 =
+					17.22°C</div>
+				<div class="length-formula-grid" id="box-2">Celcius to Fahrenheit <br><br> Formula = (1°C * 9/5) + 32 =
+					33.8°F</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ABOUT LENGTH END  -->
+
+	<!-- FOOTER START  -->
+
+	<section class="section">
+		<div class="main-list">
+			<div class="list-2">
+				<h4>Legal Information</h4>
+				<a>
+					<li>Privacy Policy</li>
+				</a>
+				<a>
+					<li>Terms Of Service</li>
+				</a>
+				<a>
+					<li>Cookie Policy</li>
+				</a>
+
+				<div class="address-icons">
+					<h4>Social Media</h4>
+					<div class="add-icons">
+						<a href="https://www.facebook.com/">
+							<li><i class="bi bi-facebook"></i></li>
+						</a>
+						<a href="https://www.instagram.com/?hl=en">
+							<li><i class="bi bi-instagram"></i></li>
+						</a>
+						<a href="https://m.twitter.com/login">
+							<li><i class="bi bi-twitter-x"></i></li>
+						</a>
+						<a href="https://www.linkedin.com/">
+							<li><i class="bi bi-linkedin"></i></li>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="list-3">
+				<h4>Quick Links</h4>
+				<a href="length.html">
+					<li>Length</li>
+				</a>
+				<a href="Area.html">
+					<li>Area</li>
+				</a>
+				<a href="volume.html">
+					<li>Volume</li>
+				</a>
+				<a href="mass.html">
+					<li>Mass</li>
+				</a>
+				<a href="temp.html">
+					<li>Temperature</li>
+				</a>
+				<a href="currency.html">
+					<li>Currency</li>
+				</a>
+			</div>
+
+			<div class="list-4">
+				<h4>Links</h4>
+				<a href="home.html">
+					<li>Home</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+			</div>
+
+			<div class="list-1">
+				<h4>Address</h4>
+				<a>
+					<li><i class="bi bi-geo-alt-fill"></i>Location</li>
+				</a>
+				<a>
+					<li><i class="bi bi-telephone"></i>Call +923198187923</li>
+				</a>
+				<a>
+					<li><i class="bi bi-envelope-fill"></i>user123@gmail.com</li>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/temp-convert.js"></script>
+</body>
+
+</html>

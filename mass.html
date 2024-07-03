@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric Conversion</title>
+	<link rel="shortcut icon" href="logo/Logo-Main.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style 1.css">
+	<link rel="stylesheet" href="css/converter.css">
+	<link rel="stylesheet" href="css/Article about converters.css">
+	<link rel="stylesheet" href="css/style-home.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #00bbf0;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #1a0e69;
+			border-radius: 50px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background-color: #031942;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- header start -->
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<a href="index.html">
+							<img style="width: 100px;" src="LOGO/Main-3logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay">
+					</div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a id="nav-links" href="index.html"><i class="bi bi-arrow-left"></i></a>
+							</li>
+							<li>
+								<a id="nav-links" href="home.html">Home</a>
+							</li>
+							<li>
+								<a id="nav-links" href="about.html">About</a>
+							</li>
+
+							<li class="menu-item-has-children">
+								<a id="nav-links" href="#">Pages <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="length.html">Length</a></li>
+										<li><a href="Area.html">Area</a></li>
+										<li><a href="volume.html">Volume</a></li>
+										<li><a href="mass.html">Mass</a></li>
+										<li><a href="temp.html">Temperature</a></li>
+										<li><a href="currency.html">Currency</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a id="nav-links" href="contact.html">Contact</a>
+							</li>
+							<li>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- header end -->
+
+	<!-- MAIN HEADING FOR PAGE START  -->
+
+<div class="h1-mainpage-heading" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center; font-size: 60px; padding-top: 20px; font-weight: bold; background: url(Images/TDK0.gif); background-size: cover;
+background-position: center;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;">MASS CONVERTER
+</div>
+
+<!-- MAIN HEADING FOR PAGE END  -->
+
+	<!-- SECTION START  -->
+
+	<section class="converter" style="margin-bottom: 5vh;">
+		<div class="container_converter">
+			<div class="main-heading">
+				<h1>MASS CONVERTER</h1>
+			</div>
+			<div class="div-h1">
+				<span>Mass Converter </span>
+			</div>
+
+			<div class="input-boxes-1">
+				<div class="input-top-2">
+					<select name="" id="inputType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="ounce">Ounce</option>
+						<option value="grams">Grams</option>
+						<option value="pounds">Pounds</option>
+						<option value="kilograms">Kilograms</option>
+						<option value="short-tons">Short Tons (2000 lb)</option>
+						<option value="mega-grams">Mega Grams</option>
+					</select>
+				</div>
+				<div class="input-top-1">
+					<input type="number" placeholder="Enter Value" class="input-1" id="input">
+				</div>
+			</div>
+			<div class="input-boxes-2">
+				<div class="input-bottom-2">
+					<select name="" id="resultType" class="select">
+						<option value="" disabled selected>Select Unit</option>
+						<option value="ounce">Ounce</option>
+						<option value="grams">Grams</option>
+						<option value="pounds">Pounds</option>
+						<option value="kilograms">Kilograms</option>
+						<option value="short-tons">Short Tons (2000 lb)</option>
+						<option value="mega-grams">Mega Grams</option>
+					</select>
+				</div>
+				<div class="input-bottom-1">
+					<input type="number" placeholder="Enter Value" class="inout-3" id="result" readonly>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECTION END  -->
+
+	<!-- ABOUT LENGTH START -->
+
+	<div class="about-converter">
+		<div class="about-container">
+			<div class="about-article">
+				<h2>About Mass Conversion</h2>
+				<p>Mass conversion is the process of converting the mass of an object from one unit of measurement to
+					another while preserving the quantity of matter. Mass, a fundamental property of matter, quantifies
+					the amount of material present in an object. It is independent of the object's location and is
+					typically measured in units such as kilograms (kg), grams (g), pounds (lb.), ounces (oz), and tons
+					(metric or imperial).The conversion of mass from one unit to another involves using conversion
+					factors specific to the units being converted. These conversion factors establish the relationship
+					between different units of mass. Similarly, conversion factors exist for other units of mass. It's
+					important to use the correct conversion factor and maintain accuracy when converting mass
+					measurements. Mass conversion finds applications in various fields, including physics, chemistry,
+					engineering, medicine, and everyday activities like cooking and shopping. Whether in scientific
+					experiments, construction projects, or simply measuring ingredients for a recipe, accurate mass
+					conversions are crucial for ensuring precision and consistency in measurements.</p>
+			</div>
+
+			<div class="chart-head">
+				<h1 style="color: #1a0e69;">CHART</h1>
+			</div>
+			<div class="chart-grid">
+				<div class="length-grid" id="box-1">1 ounce</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-2">28.3495 gram</div>
+				<div class="length-grid" id="box-3">0.035274 ounce</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-4">1 gram</div>
+				<div class="length-grid" id="box-5">1 pound</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-6">0.453692 kilograms</div>
+				<div class="length-grid" id="box-7">2.20462 pound</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-8">1 kilogram</div>
+				<div class="length-grid" id="box-9">1 short ton</div>
+				<div class="length-grid" id="box-1">=</div>
+				<div class="length-grid" id="box-10">0.907185 mega gram</div>
+				<div class="length-grid" id="box-11">1.10231</div>
+				<div class="length-grid" id="box-11">=</div>
+				<div class="length-grid" id="box-11">1 mega gram</div>
+			</div>
+
+			<div class="chart-formula-head">
+				<h1 style="color: #1a0e69;">FORMULAS</h1>
+			</div>
+			<div class="about-formula-grid">
+				<div class="length-formula-grid" id="box-1">Ounce to Grams <br> <br> Formula = for an approximate
+					result, multiply thr mass value by 28.35</div>
+				<div class="length-formula-grid" id="box-2">Pounds to Kilogram <br><br> Formula = for an approximate
+					result, divide the mass value by 2.205</div>
+				<div class="length-formula-grid" id="box-3">Short Ton to Mega grams <br><br> Formula = for an
+					approximate result, divide the mass value by 1.102</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT LENGTH END  -->
+
+	<!-- FOOTER START  -->
+
+	<section class="section">
+		<div class="main-list">
+			<div class="list-2">
+				<h4>Legal Information</h4>
+				<a>
+					<li>Privacy Policy</li>
+				</a>
+				<a>
+					<li>Terms Of Service</li>
+				</a>
+				<a>
+					<li>Cookie Policy</li>
+				</a>
+
+				<div class="address-icons">
+					<h4>Social Media</h4>
+					<div class="add-icons">
+						<a href="https://www.facebook.com/">
+							<li><i class="bi bi-facebook"></i></li>
+						</a>
+						<a href="https://www.instagram.com/?hl=en">
+							<li><i class="bi bi-instagram"></i></li>
+						</a>
+						<a href="https://m.twitter.com/login">
+							<li><i class="bi bi-twitter-x"></i></li>
+						</a>
+						<a href="https://www.linkedin.com/">
+							<li><i class="bi bi-linkedin"></i></li>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="list-3">
+				<h4>Quick Links</h4>
+				<a href="length.html">
+					<li>Length</li>
+				</a>
+				<a href="Area.html">
+					<li>Area</li>
+				</a>
+				<a href="volume.html">
+					<li>Volume</li>
+				</a>
+				<a href="mass.html">
+					<li>Mass</li>
+				</a>
+				<a href="temp.html">
+					<li>Temperature</li>
+				</a>
+				<a href="currency.html">
+					<li>Currency</li>
+				</a>
+			</div>
+
+			<div class="list-4">
+				<h4>Links</h4>
+				<a href="home.html">
+					<li>Home</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+			</div>
+
+			<div class="list-1">
+				<h4>Address</h4>
+				<a>
+					<li><i class="bi bi-geo-alt-fill"></i>Location</li>
+				</a>
+				<a>
+					<li><i class="bi bi-telephone"></i>Call +923198187923</li>
+				</a>
+				<a>
+					<li><i class="bi bi-envelope-fill"></i>user123@gmail.com</li>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/mass-convert.js"></script>
+</body>
+
+</html>
